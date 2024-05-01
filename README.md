@@ -6,7 +6,8 @@ a simplified nodejs server that creates a secret uuid endpoint, only to be known
 2. `$ mv .env.example .env` and complete the `NGROK_ENDPOINT=`
 3. `$ pnpm install`
 4. `$ npx nodemon index.ts`
-5. register the endpoint that gets printed to console in [example webhook code](https://docs.sequence.xyz/api/indexer/examples/webhook-listener) 
+5. register the endpoint that gets printed to terminal in [example webhook code](https://docs.sequence.xyz/api/indexer/examples/webhook-listener) 
+6. to have your webhook called by Sequence, mint a collectible from the [Sequence Builder](https://sequence.build) for the registered contract address in step 5
 
 ## return responses from Sequence Webhook Service
 * Response: POST /<your_endpoint_id>
